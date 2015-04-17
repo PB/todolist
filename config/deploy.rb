@@ -15,7 +15,7 @@ require 'mina/unicorn'
 set :rails_env, 'production'
 set :domain, '46.101.180.222'
 set :deploy_to, '/home/alif/www/todolist'
-set :repository, 'https://github.com/saroar/studdo.git'
+set :repository, 'https://github.com/saroar/todolist.git'
 set :branch, 'master'
 set :user, 'alif'
 set :forward_agent, true
