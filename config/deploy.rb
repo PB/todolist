@@ -13,13 +13,13 @@ require 'mina/unicorn'
 #   branch       - Branch name to deploy. (needed by mina/git)
 
 set :rails_env, 'production'
-set :domain, '46.101.180.222'
-set :deploy_to, '/home/alif/www/todolist'
-set :repository, 'https://github.com/saroar/todolist.git'
+set :domain, '127.0.0.1'
+set :deploy_to, '/home/piotr/www/todolist'
+set :repository, 'git@github.com:PB/todolist.git'
 set :branch, 'master'
-set :user, 'alif'
+set :user, 'piotr'
 set :forward_agent, true
-set :port, '22'
+set :port, '3022'
 set :unicorn_pid, "#{deploy_to}/shared/pids/unicorn.pid"
 
 # For system-wide RVM install.
