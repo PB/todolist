@@ -15,7 +15,7 @@ require 'mina/unicorn'
 set :rails_env, 'production'
 set :domain, '127.0.0.1'
 set :deploy_to, '/home/piotr/www/todolist'
-set :repository, 'git@github.com:PB/todolist.git'
+set :repository, 'https://github.com/PB/todolist.git'
 set :branch, 'master'
 set :user, 'piotr'
 set :forward_agent, true

@@ -52113,3 +52113,10 @@ Processing by PagesController#home as HTML
   Rendered pages/home.html.erb within layouts/application (0.4ms)
   Rendered layouts/_header.html.erb (0.5ms)
 Completed 200 OK in 329ms (Views: 328.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-06-23 09:32:00 +0200
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 327ms (Views: 325.2ms | ActiveRecord: 0.0ms)
